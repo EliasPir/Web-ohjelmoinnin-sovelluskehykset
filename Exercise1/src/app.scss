@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+.app {
+  background-color: #e2e2e2;
+  height: 100%;
+  display: flexbox;
+
+  .topBarBG {
+    background-color: #10006b;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    display: flex;
+  }
+
+  .topBar {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .menuIcon{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .orderBtn{
+    margin-left: 25%;
+    border: solid 2px white;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    height: 30px;
+    width: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .orderBtnText{
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    line-height: initial;
+  }
+
+  .menu{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .signIn{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .header
+  {
+    vertical-align: middle;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 10%;
+    color: white;
+  }
+
+ .daysPick{
+    margin-top: 1px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #006e8a;
+  }
+
+  .firstDaysPick{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #006e8a;
+  }
+
+  .daysPickText{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .advertisement{
+    margin-top: 1px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0093b8;
+  }
+
+  .news{
+    display: inline-block;
+    background-color: white;
+    margin-top: 10px;
+    width: 70%;
+    height: 100%;
+    border-top: solid 1px black;
+    padding: 10px;
+  }
+
+  .newsHeader{
+    padding: 0;
+  }
+
+  .headerImage{
+    display: block;
+    width: 100%;
+  }
+
+  .imageHolder{
+    padding: 0;
+  }
+
+  .mostViewed{
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 30%;
+    height: 100%;
+  }
+
+  .divBoxStyle{
+    display: flex;
+    height: auto;
+  }
+
+  .sizingDiv{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+
+  .mostViewedHeader{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: solid 2px gray;
+  }
+
+  .mostViewedOrder{
+    color: #006e8a;
+    display: inline-flex;
+  }
+
+  .mostViewedKeyWord{
+    display: initial;
+    font-weight: bold;
+  }
+
+  .mostViewedItem{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    display: inline-flex;
+    padding-bottom: 10px;
+    border-bottom: rgb(167, 167, 167) 1px solid;
+  }
+
+  .mostViewedOrderDiv{
+    display: inline-flex;
+  }
+
+  .mostViewedParagraph{
+    display: initial;
+    margin-left: 7px;
+  }
+
+  .mostViewedParagraphStyle{
+    display:inline;
+    padding-left: 35px;
+  }
+
+  .blueHeader{
+    display: inline-flex;
+    font-size: 28px;
+    color: #0054c2;
+  }
+
+  .redAnnouncement{
+    color: red;
+    font-weight: bold;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .newsHeaderDiv{
+    display: block;
+  }
+
+  .liveIcon{
+    color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+    vertical-align: baseline;
+  }
+
+  .secondNewsHeader{
+    display: initial;
+    font-size: 28px;
+    margin-left: 10px;
+  }
+
+}
+ 
